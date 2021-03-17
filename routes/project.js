@@ -3,6 +3,7 @@ const router = express.Router();
 const { data } = require('../data/projectsData.json');
 const { projects } = data;
 
+// Render Project Page & Pass Data Dynamically Into Project Page
 router.get('/project:id', (req, res) => {
     const { id } = req.params;
     const projectData = projects[id];
@@ -17,7 +18,7 @@ router.get('/project:id', (req, res) => {
         description: projectData.description,
         grade_received: projectData.grade_received,
         image_urls: projectData.image_urls
-    })
-})
+    });
+});
 
 module.exports = router;
