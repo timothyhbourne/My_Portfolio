@@ -12,9 +12,11 @@ router.get('/project:id', (req, res) => {
         project_number: projectData.project_id,
         project_name: projectData.project_name,
         github_link: projectData.github_link,
+        live_link: projectData.live_link,
         technology_used: projectData.technology_used,
         description: projectData.description,
-        grade_received: projectData.grade_received
+        grade_received: projectData.grade_received,
+        image_urls: projectData.image_urls
     })
 })
 

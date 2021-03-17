@@ -6,51 +6,51 @@
                 "project_id": "0",
                 "project_name": "The Random Quote Generator",
                 "github_link": "https://github.com/timothyhbourne/Random_Quote_Generator",
-                "live_link": "",
-                "technology_used": "Javascript - Basics",
-                "description": "Practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+                "live_link": "https://timothyhbourne.github.io/Random_Quote_Generator/index.html",
+                "technology_used": ["HTML", "CSS", "Javascript Basics"],
+                "description": "Practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button. Background color also changes if a user clicks the button. This project is a good introductory project for those ready to pick up Javascript as a language.",
                 "grade_received": "Exceeds Expectation",
-                "image_urls": ""
+                "image_urls": ["/static/project_images/random_quote_thumb.png", "/static/project_images/quote_1.png", "/static/project_images/quote_2.png", "/static/project_images/quote_3.png"]
             },
             {
                 "project_id": "1",
                 "project_name": "Data Pagination & Searchbar",
                 "github_link": "https://github.com/timothyhbourne/Pagination_Search_Project",
-                "live_link": "",
-                "technology_used": "Javascript - DOM",
-                "description": "In this project, I wrote JavaScript to display several “pages” of student data that the user can easily navigate through and view. This project focused on DOM manipulation.",
+                "live_link": "https://timothyhbourne.github.io/Pagination_Search_Project/index.html",
+                "technology_used": ["Javascript", "DOM Scripting", "Event Handlers", "CSS Selectors", "Client-side Debugging"],
+                "description": "In this project, I wrote JavaScript to display several “pages” of student data that the user can easily navigate through and view - data pagination. This project focused on DOM manipulation/Scripting, Vanilla Javascript, using CSS Selectors, Event Handlers and also a little bit of client-side debugging.",
                 "grade_received": "Exceeds Expectation",
-                "image_urls": ""
+                "image_urls": ["/static/project_images/data_pagination_thumb.png", "/static/project_images/pagi_1.png", "/static/project_images/pagi_2.png", "/static/project_images/pagi_3.png"]
             },
             {
                 "project_id": "2",
                 "project_name": "The Interactive Form",
                 "github_link": "https://github.com/timothyhbourne/The_Interactive_Form",
-                "live_link": "",
-                "technology_used": "Javascript - Forms & RegEx",
-                "description": "An interactive web form that has great accessability and solid form validation. Skills showcased to create this interactive web form was understanding HTML Forms, Data Validation, RegEx, and Event Handlers",
+                "live_link": "https://timothyhbourne.github.io/The_Interactive_Form/index.html",
+                "technology_used": ["HTML Forms", "Javascript", "Regular Expressions", "Web Accessability", "Data Validation"],
+                "description": "An interactive web form that has great accessability and solid form validation. Skills showcased to create this interactive web form was understanding HTML Forms, Data Validation, RegEx, and Event Handlers. In this project I went the extra mile by adding unique validations depending on what field needs to be filled, I also created logic to ensure that user wont be able to book clashing events. ",
                 "grade_received": "Exceeds Expectation",
-                "image_urls": "/static/thumbnails/form_validation.png"
+                "image_urls": ["/static/project_images/form_validation_thumb.png", "/static/project_images/form_1.png", "/static/project_images/form_2.png", "/static/project_images/form_3.png"]
             },
             {
                 "project_id": "3",
                 "project_name": "The Phrase Hunter",
-                "github_link": "https://github.com/timothyhbourne/The_Phrase_Hunter",
-                "live_link": "",
-                "technology_used": "Javascript - OOP",
-                "description": "Created a browser-based, word guessing game: Phrase Hunter. Area of focus for this project was JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. User then tries to guess the phrase by selecting individual letters from an onscreen keyboard. Also added a timer for bonus.",
+                "github_link": "https://github.com/timothyhbourne/The_Phrase_Hunter/index.html",
+                "live_link": "https://timothyhbourne.github.io/The_Phrase_Hunter/index.html",
+                "technology_used": ["Javascript", "CSS", "HTML", "Object Oriented Programming", "Array Iteration Methods"],
+                "description": "Created a browser-based, word guessing game: Phrase Hunter. Area of focus for this project was JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. User then tries to guess the phrase by selecting individual letters from an onscreen keyboard. I also added a timer for a bonus feature.",
                 "grade_received": "Exceeds Expectation",
-                "image_urls": "/static/thumbnails/phrase_hunter.png"
+                "image_urls": ["/static/project_images/phrase_hunter_thumb.png", "/static/project_images/phrase_1.png", "/static/project_images/phrase_2.png", "/static/project_images/phrase_3.png"]
             },
             {
                 "project_id": "4",
                 "project_name": "Public API Requests",
                 "github_link": "https://github.com/timothyhbourne/Public_API_Requests_Project",
-                "live_link": "",
-                "technology_used": "Javascript - Ajax, HTTP, Git",
-                "description": "Created an employee directory by communicating with a third-party API (Application Programming Interface). This project was done to demonstrate my skills and knowledge in making HTTP Requests, Promises, Fetch and Asynchronous Programming",
+                "live_link": "https://timothyhbourne.github.io/Public_API_Requests_Project/index.html",
+                "technology_used": ["Javascript", "HTML", "CSS", "AJAX", "HTTP & HTTPS", "HTTP Error Handling", "Git"],
+                "description": "Created an employee directory by communicating with a third-party API (Application Programming Interface). This project was done to demonstrate my skills and knowledge in making HTTP Requests, Promises, Fetch and Asynchronous Programming. In this project, I went a step further by adding a Next & Prev button for users to browse through employees. Adding to that, I also learned how to create a modal using vanilla Javascript.",
                 "grade_received": "Exceeds Expectation",
-                "image_urls": "/static/thumbnails/public_api.png"
+                "image_urls": ["/static/project_images/public_api_thumb.png", "/static/project_images/api_1.png", "/static/project_images/api_2.png", "/static/project_images/api_3.png"]
             }
         ]
     }

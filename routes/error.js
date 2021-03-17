@@ -10,7 +10,12 @@ router.use((req, res, next) => {
 router.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
-    res.render('error')
+
+    if (err.status === 404) {
+        res.render('page-not-found', { err })
+    } else {
+        res.render('error', { err })
+    }
 })
 
 module.exports = router;
