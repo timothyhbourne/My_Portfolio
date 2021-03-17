@@ -1,0 +1,24 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
+    h1 Welcome To My Page!
+
+    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
+    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quam quaerat porro recusandae cum laudantium accusamus incidunt illum dolores voluptates nisi, deleniti praesentium beatae corporis necessitatibus! Fugit nemo iste temporibus.
+
+
+  article.portfolio-project-thumbs
+    h1.myprojects My Projects
+    .projects-box.box.grid
+      each project in project_data 
+        .cell  
+          a(href=`/project${project.project_id}`)
+            if(project.image_urls)
+              img.thumbnail(src=`${project.image_urls}`, alt='')
+            else 
+              img.thumbnail(src=`https://placehold.it/550x550`, alt='')
+            h5 #{project.project_name}

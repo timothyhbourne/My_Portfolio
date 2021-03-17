@@ -1,0 +1,57 @@
+{
+    "data": {
+        "title": "Timothy's Projects",
+        "projects": [
+            {
+                "project_id": "0",
+                "project_name": "The Random Quote Generator",
+                "github_link": "https://github.com/timothyhbourne/Random_Quote_Generator",
+                "live_link": "",
+                "technology_used": "Javascript - Basics",
+                "description": "Practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+                "grade_received": "Exceeds Expectation",
+                "image_urls": ""
+            },
+            {
+                "project_id": "1",
+                "project_name": "Data Pagination & Searchbar",
+                "github_link": "https://github.com/timothyhbourne/Pagination_Search_Project",
+                "live_link": "",
+                "technology_used": "Javascript - DOM",
+                "description": "In this project, I wrote JavaScript to display several “pages” of student data that the user can easily navigate through and view. This project focused on DOM manipulation.",
+                "grade_received": "Exceeds Expectation",
+                "image_urls": ""
+            },
+            {
+                "project_id": "2",
+                "project_name": "The Interactive Form",
+                "github_link": "https://github.com/timothyhbourne/The_Interactive_Form",
+                "live_link": "",
+                "technology_used": "Javascript - Forms & RegEx",
+                "description": "An interactive web form that has great accessability and solid form validation. Skills showcased to create this interactive web form was understanding HTML Forms, Data Validation, RegEx, and Event Handlers",
+                "grade_received": "Exceeds Expectation",
+                "image_urls": "/static/thumbnails/form_validation.png"
+            },
+            {
+                "project_id": "3",
+                "project_name": "The Phrase Hunter",
+                "github_link": "https://github.com/timothyhbourne/The_Phrase_Hunter",
+                "live_link": "",
+                "technology_used": "Javascript - OOP",
+                "description": "Created a browser-based, word guessing game: Phrase Hunter. Area of focus for this project was JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. User then tries to guess the phrase by selecting individual letters from an onscreen keyboard. Also added a timer for bonus.",
+                "grade_received": "Exceeds Expectation",
+                "image_urls": "/static/thumbnails/phrase_hunter.png"
+            },
+            {
+                "project_id": "4",
+                "project_name": "Public API Requests",
+                "github_link": "https://github.com/timothyhbourne/Public_API_Requests_Project",
+                "live_link": "",
+                "technology_used": "Javascript - Ajax, HTTP, Git",
+                "description": "Created an employee directory by communicating with a third-party API (Application Programming Interface). This project was done to demonstrate my skills and knowledge in making HTTP Requests, Promises, Fetch and Asynchronous Programming",
+                "grade_received": "Exceeds Expectation",
+                "image_urls": "/static/thumbnails/public_api.png"
+            }
+        ]
+    }
+}
