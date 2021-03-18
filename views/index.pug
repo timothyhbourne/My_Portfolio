@@ -4,10 +4,8 @@ block content
 
   article.portfolio-intro
 
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
     h1 Welcome To My Page!
 
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
     p My portfolio currently consists of 5 really cool projects, 6 including the one you are visiting now! This current project that I'm doing is called the Static Node.JS &amp; Express site where students are encourage to show off the projects they've done so far throughout the Tech Degree. This project was also created to test my skills with Node.JS, Express, Asynchronous Programming, Templating and many more! 
 
   article.portfolio-project-thumbs
@@ -15,7 +13,7 @@ block content
     .projects-box.box.grid
       each project in project_data 
         .cell  
-          a(href=`/project${project.project_id}`)
+          a(href=`/project/${project.project_id}`)
             if(project.image_urls)
               img.thumbnail(src=`${project.image_urls[0]}`, alt='')
             else 
