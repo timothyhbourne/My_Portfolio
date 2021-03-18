@@ -32,10 +32,10 @@ app.use((err, req, res, next) => {
 
     if (err.status === 404) {
         res.render('page-not-found', { err });
-        console.log('Page not found. Are you the page exists?');
+        console.log(err.status, err.message);
     } else {
         res.render('error', { err });
-        console.log('There seems to be a server error. Please re-check parts of your program.');
+        console.log(err.status, err.message);
     };
 });
 
